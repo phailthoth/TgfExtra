@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "TgfExtra",
+    "description": "Dudududududu, some kinda description. It's 3AM. I'm loopy.",
+    "version": "0.1",
+	"icons": { "16": "icon16.png",
+               "48": "icon48.png",
+               "128": "icon128.png" },
+    "permissions": [
+        "tabs",
+        "http://forums.jordantrudgett.com/*",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://forums.jordantrudgett.com/*"
+            ],
+            "all_frames": false,
+            "css": [
+            	"theme.css"
+            ],
+            "run_at": "document_start",
+            "persistent": false
+        }
+    ]
+}

@@ -1,0 +1,375 @@
+/*
+
+*/
+			/* Default Color Information */
+
+/* Page */
+body{
+	background: #242424 !important;
+	color:#fff !important;
+}
+
+/* colors of titles and links, remove :not(.username-coloured) if you want all links the same) */
+
+h2, a:link:not(.username-coloured), a:visited:not(.username-coloured){ 
+	color:#2299d5 !important;
+}
+
+h2 a:hover:not(.username-coloured){
+	color:#32a9e5 !important;
+}
+
+h3{
+	color:#2299d5 !important;
+}
+
+/* Color of border inbetween threads */
+
+table, tbody, tr, .forums td{
+	border-color:#1c8ec1 !important;
+}
+
+#primary-navigation li{
+	border-right:1px solid #2299d5 !important;
+}
+
+/* text input color */
+
+.inputbox{
+	color:#2299d5 !important;
+}
+
+/* Top two bars */
+#account{
+	background: #343434 !important;	
+}
+
+#main-navigation{
+	background: #343434 !important;	
+}
+
+.jqueryslidemenu ul li ul li{
+	background: #343434 !important;	
+}
+
+.jqueryslidemenu ul li ul li a:link, .jqueryslidemenu ul li ul li a:visited{
+	background: #343434 !important;	
+}
+
+.jqueryslidemenu ul li ul li a:hover{
+	background:#444 !important;
+}
+
+/* Main banner */
+#illustration{
+		/* Size is: 980 x 237 */
+		/* Comment out if you want default banner */
+	background: url('http://puu.sh/aRRiY/e9b8ef9e3f.png') top center no-repeat !important;
+}
+
+/* Removing incase a transparent background is used */
+#illustration_back_1, #illustration_back_2, #illustration_back_3{
+	display:none !important;
+}
+
+/* Forum Title Bars */
+.forums-wrapper{
+	background: #343434 !important;
+}	
+
+/* Forum Bars */
+.forums .bg1{
+	background-color: #585757 !important;
+}
+
+.forums .bg2{
+	background-color: #4e4f4f !important;
+}
+
+.forums .bg3{
+	background-color: #686767 !important;
+}
+
+/* Post colors */
+.forums .bg1 .bg2, .post.bg2{
+	background-color: #3e3f3f !important;
+}
+
+.forums .bg2 .bg2, .post.bg1{
+	background-color: #383939 !important;
+}
+
+.postbody .content blockquote{
+	background-color:#0a375a !important;
+	border-color: #2299d5 !important;
+}
+
+/* Post rounded corners */
+
+.post.bg1, .post.bg2, .rules, .panel, .postbody .content blockquote, .editorpanel, .cp-mini{
+	border-radius:5px;
+}
+
+.corners-top, .corners-top span, .corners-bottom, .corners-bottom span{
+	background-image:none !important;
+}
+
+/* Color of default post text */
+
+.postbody{
+	color:#fff !important;
+}
+
+.content{
+	color:#fff !important;
+}
+
+.content:not(.postbody .content){
+	background-color:#343434 !important;
+}
+
+/* Spoiler background color */
+
+.spoiler-visible{
+	background:#242424 !important;
+	color:#fff !important;
+}
+
+/* Post borders */
+
+.postprofile{
+	border-right:1px solid #2299d5 !important;
+}
+
+.signature{
+	border-top-color:#2299d5 !important;
+}
+
+/* Poster information color */
+
+.postprofile dd{
+	color:#fff !important;
+}
+
+.postprofile dd strong{
+	color:#1c8ec1 !important;
+}
+
+/* Panels that pop up from time to time */
+.panel{
+	background-color:#343434 !important;
+	color:#fff !important;
+}
+
+/* Page Buttons */
+.pagination span a, .pagination span a:link{
+	background-color:#343434 !important;
+}
+
+.pagination span a:hover{
+	background-color:#444 !important;
+}
+
+/* Text on bars */
+
+#account .leftside{
+	color: #000 !important;
+}
+
+#account .rightside li a{
+	color: #fbfbfb !important;
+}
+
+#account .leftside li{
+	color: #fbfbfb !important;
+}
+
+#primary-navigation li a{
+	color: #fbfbfb !important;
+}
+
+.forums thead tr th{
+	color: #fff !important;
+}
+
+.forums thead tr th a{
+	color: #fff !important;
+}
+
+.forumtitle{
+	color: #105289 !important;
+}
+
+/* Chat color */
+
+.chattextelement, .dockbubble{
+	color: #2299d5 !important;
+}
+
+#chatlist, .chatcontents, .dockwindow{
+	background-color: #343434 !important;
+}
+
+	/* Color of bubble */
+.dockbubble{
+	background-color: #444 !important;
+}
+
+	/* Border at edges */
+.dockwindow{
+	border: 1px solid #2299d5 !important;
+}
+
+/* .chatuser p{
+	color: #fff !important;
+} */
+
+.chatuser:hover{
+	background-color: #3c3c3c !important;
+}
+
+/* Footer */
+#footer{
+	background-color: #585757 !important;
+}
+
+/* Random Pages */
+
+fieldset label{
+	color:#fff !important;
+}
+
+fieldset label:hover{
+	color:#2299d5 !important;
+}
+
+select{
+	color: #2299d5 !important;
+	display: block !important;
+}
+
+option{
+	background-color: #343434 !important;
+	color: #2299d5 !important;
+	display:block !important;
+}
+
+.gardenName{
+	color:#2299d5 !important;
+}
+
+/* Color of the panel with buttons while posting */
+
+.editorpanel{
+	background-color:#242424 !important;
+	border:none !important;
+}
+
+.inputbox{
+	background-color:#242424 !important;
+}
+
+#tabs a{
+	background-color: #3d3d3d !important;
+}
+
+#tabs .activetab a{
+	background-color: #3d3d3d !important;
+	border-color: #3d3d3d !important;
+}
+
+/* Poll text color */
+
+.polls:not(.voted){
+	color:#fff !important;
+}
+
+.polls .voted{
+	color:#2299d5 !important;
+}
+
+.pollbar1{
+	background-color:#1b7aaa !important;
+	border-right-color:#186d99 !important;
+	border-bottom-color:#186d99 !important;
+}
+
+.pollbar2{
+	background-color:#2187b2 !important;
+	border-right-color:#2c79a0 !important;
+	border-bottom-color:#2c79a0 !important;
+}
+
+.pollbar3{
+	background-color:#3593b9 !important;
+	border-right-color:#3e84a6 !important;
+	border-bottom-color:#3e84a6 !important;
+}
+
+.pollbar4{
+	background-color:#479dc0 !important;
+	border-right-color:#4e8dac !important;
+	border-bottom-color:#4e8dac !important;
+}
+
+.pollbar5{
+	background-color:#479dc0 !important;
+	border-right-color:#4e8dac !important;
+	border-bottom-color:#4e8dac !important;
+}
+
+	/* Profile */
+.left-box.details dt, .details dt{
+	color: #2299d5 !important;
+}
+
+.left-box.details dd, .details dd{
+	color: #fff !important;
+}
+
+.dashed{
+	border-color:#ccc !important;
+}
+
+/* UCP */
+
+#cp-menu #navigation ul{
+	background-color: #242424 !important;
+}
+
+#cp-menu #navigation ul li a{
+	background-color: #242424 !important;	
+	background-image: none !important;
+}
+
+#cp-menu #navigation ul li a:hover{
+	background-color: #444 !important;
+}
+
+#cp-menu #navigation ul li#active-subsection a{
+	background-color: #555 !important;
+}
+
+.cp-mini{
+	background-color: #242424 !important;
+}
+
+
+			/* Hover Stuff - Take out everything below if you don't want */
+			
+#account{
+position:fixed !important;
+display:block !important;
+margin-top:-32px !important;
+z-index:6 !important;
+min-width: 936px !important;	/* Edit this later !! */
+max-width: 70% !important;
+}
+
+#account .rightside{
+height:100% !important;					
+}
+
+#illustration{
+margin-top:32px !important;				
+}
