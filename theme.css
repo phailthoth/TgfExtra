@@ -141,13 +141,6 @@ table, tbody, tr, .forums td{
 	background-color:#343434 !important;
 }
 
-/* Spoiler background color */
-
-.spoiler-visible{
-	background:#242424 !important;
-	color:#fff !important;
-}
-
 /* Post borders */
 
 .postprofile{
@@ -373,6 +366,40 @@ option{
 /* Couple Garden */
 .area label{
 	color: #fff !important;
+}
+
+/* Rules */
+.rules{
+	background-color: #9b59b6 !important;
+	color: #fff !important;
+}
+
+/* Code Box */
+.codebox{
+	border-color: #2299d5 !important;
+	background-color:#2299d5 !important;
+}
+
+.codebox dt, .codebox dd{
+	border-color: #2299d5 !important;
+}
+
+.codebox dt{
+	background-color: #242424 !important;
+	padding:10px;
+}
+
+.codebox dd{
+	background-color: #343434 !important;
+	padding:10px;
+}
+
+/* Random div I found */
+.content div div{
+	border: 1px solid #2299d5 !important;
+	background: #242424 !important;
+	padding: 10px !important;
+	color:#fff !important;
 }
 
 
