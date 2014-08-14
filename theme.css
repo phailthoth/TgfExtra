@@ -39,6 +39,14 @@ table, tbody, tr, .forums td{
 	color:#2299d5 !important;
 }
 
+.inputbox:not(#dock input){
+	background-color:#242424 !important;
+}
+
+#dock .inputbox{
+	background-color:#343434 !important;
+}
+
 /* Top two bars */
 #account{
 	background: #343434 !important;	
@@ -229,6 +237,10 @@ table, tbody, tr, .forums td{
 	border: 1px solid #2299d5 !important;
 }
 
+.chatbox{
+	border-color: #2299d5 !important;
+}
+
 /* .chatuser p{
 	color: #fff !important;
 } */
@@ -271,10 +283,6 @@ option{
 .editorpanel{
 	background-color:#242424 !important;
 	border:none !important;
-}
-
-.inputbox{
-	background-color:#242424 !important;
 }
 
 #tabs a{
@@ -360,6 +368,11 @@ option{
 
 .cp-mini{
 	background-color: #242424 !important;
+}
+
+/* Couple Garden */
+.area label{
+	color: #fff !important;
 }
 
 
