@@ -355,14 +355,14 @@ option{
 }
 
 
-			/* Hover Stuff - Take out everything below if you don't want */
+			/* Hover Stuff - Take out everything below if you don't want -- Testing
 			
 #account{
 position:fixed !important;
 display:block !important;
 margin-top:-32px !important;
 z-index:6 !important;
-min-width: 936px !important;	/* Edit this later !! */
+min-width: 936px !important;	
 max-width: 70% !important;
 }
 
@@ -372,4 +372,4 @@ height:100% !important;
 
 #illustration{
 margin-top:32px !important;				
-}
+} */ 
