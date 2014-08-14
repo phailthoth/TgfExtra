@@ -64,12 +64,17 @@ table, tbody, tr, .forums td{
 #illustration{
 		/* Size is: 980 x 237 */
 		/* Comment out if you want default banner */
-	background: url('http://puu.sh/aRRiY/e9b8ef9e3f.png') top center no-repeat !important;
+	background-image: url('http://puu.sh/aS8FA/f961919c11.png') !important;
 }
 
 /* Removing incase a transparent background is used */
-#illustration_back_1, #illustration_back_2, #illustration_back_3{
-	display:none !important;
+#illustration_back_1, #illustration_back_3{
+	background-color: #242424 !important;
+}
+
+/* Super Sneaky Background Hack */
+#illustration_back_2{
+	background-color: #2299d5 !important;
 }
 
 /* Forum Title Bars */
@@ -204,6 +209,10 @@ table, tbody, tr, .forums td{
 
 .chattextelement, .dockbubble{
 	color: #2299d5 !important;
+}
+
+.chattextelement a.postlink{
+	color: #fff !important;
 }
 
 #chatlist, .chatcontents, .dockwindow{
