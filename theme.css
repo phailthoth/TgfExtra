@@ -395,7 +395,7 @@ option{
 }
 
 /* Random div I found */
-.content div div{
+.content > div > div{
 	border: 1px solid #2299d5 !important;
 	background: #242424 !important;
 	padding: 10px !important;
@@ -404,6 +404,11 @@ option{
 
 .spoiler{
 	margin:0 !important;
+}
+
+.spoiler-visible{
+	color:#fff !important;
+	background: #242424 !important;
 }
 
 
