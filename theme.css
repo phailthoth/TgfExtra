@@ -69,7 +69,7 @@ table, tbody, tr, .forums td{
 
 /* Removing incase a transparent background is used */
 #illustration_back_1, #illustration_back_3{
-	background-color: #242424 !important;
+	display: none !important;
 }
 
 /* Super Sneaky Background Hack */
@@ -254,7 +254,6 @@ fieldset label:hover{
 
 select{
 	color: #2299d5 !important;
-	display: block !important;
 }
 
 option{
