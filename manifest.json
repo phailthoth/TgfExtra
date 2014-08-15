@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "TgfExtra",
-    "description": "Dudududududu, some kinda description. It's 3AM. I'm loopy.",
+    "name": "Tgforums Theme: Esoteric",
+    "description": "Changes the color scheme of tgforums, to a dark theme ( grey and blue ).",
     "version": "0.1",
 	"icons": { "16": "icon16.png",
                "48": "icon48.png",

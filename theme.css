@@ -5,6 +5,11 @@
 		3. Chat groupchat colors are hard coded, would prefer something else.
 		4. The who is online legend, could use class username-coloured so that I don't override it.
 		5. Megaphones look trash on dark theme, please add a class or id to it to make it customizable. 
+
+
+	Things I want to add:
+		1. Change color of the online/offline. It appears to be a picture, but I might hide it and change it around. 
+		2. Make it so it's more user effective to this. Options page, need to learn how to make one.
 */
 			/* Default Color Information */
 
@@ -16,12 +21,22 @@ body{
 
 /* colors of titles and links, remove :not(.username-coloured) if you want all links the same) */
 
-h2, a:link:not(.username-coloured), a:visited:not(.username-coloured){ 
+a{
+	transition:all ease-in-out .35s;
+	text-decoration:none !important;
+}
+
+a:not(.username-coloured), .bg2 p a{
+	border-bottom:1px solid rgba(50, 169, 229, 0);
+}
+
+h2, a:link:not(.username-coloured), a:visited:not(.username-coloured), .bg p a{ 
 	color:#2299d5 !important;
 }
 
-h2 a:hover:not(.username-coloured){
+a:hover:not(.username-coloured), a:focus:not(.username-coloured), .bg2 p a:hover{
 	color:#32a9e5 !important;
+	border-bottom:1px solid rgba(50, 169, 229, 1);
 }
 
 h3{
@@ -228,6 +243,13 @@ blockquote{
 	/* Color of bubble */
 .dockbubble{
 	background-color: #444 !important;
+	color: #2299d5 !important;
+}
+
+	/* In case this is added, I don't have to add an update */
+.dockbubble-notif{
+	background-color: #2299d5 !important;
+	color: #444 !important;
 }
 
 	/* Border at edges */
@@ -404,20 +426,46 @@ option{
 }
 
 /* Random div I found */
-.content > div > div{
+.content > div > div, .spoiler-top{
 	border: 1px solid #2299d5 !important;
 	background: #242424 !important;
 	padding: 10px !important;
 	color:#fff !important;
 }
 
+.spoiler-top{
+	border-bottom:none !important;
+}
+
 .spoiler{
 	margin:0 !important;
+}
+
+div.spoiler-box{
+	border: 1px solid #2299d5 !important;
+	background-color: #242424 !important;
+}
+
+span.spoilerbox{
+	
 }
 
 .spoiler-visible{
 	color: #9b59b6 !important;
 	background: #242424 !important;
+}
+
+div.spoiler-visible{
+	padding: 1em !important;
+}
+
+td > p > label{
+	color:#fff !important;
+}
+
+/* Sticky */
+.sticky h4 span{
+	color: #d092ea !important;
 }
 
 
