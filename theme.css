@@ -305,7 +305,7 @@ option{
 	border:none !important;
 }
 
-#message-box textarea, input#subject{
+#message-box textarea, input#subject, .panel input, .panel textarea{
 	background-color: #242424;
 }
 
