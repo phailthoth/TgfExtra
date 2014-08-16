@@ -1,10 +1,10 @@
 /*
 	Issues I need to bring up:
-		1. Couple garden, white background is set to !important, that needs to go.
+		1. Couple garden, white background is set to !important, I can't override that.
 		2. Chat notification is hard coded change, would prefer a css class change, IE: from dockbubble to dockbubble-notif
 		3. Chat groupchat colors are hard coded, would prefer something else.
-		4. The who is online legend, could use class username-coloured so that I don't override it.
-		5. Megaphones look trash on dark theme, please add a class or id to it to make it customizable. 
+		4. The who is online legend, could use class username-coloured so that I don't override it. Currently it's all the same color.
+		5. Megaphones look REALLY bad on dark theme, please add a class or id to it to make it customizable. 
 
 
 	Things I want to add:
@@ -13,6 +13,10 @@
 */
 
 /* Page */
+::selection{
+	background-color:rgba(160, 98, 186, .5);
+}
+
 body{
 	background: #242424 !important;
 	color:#fff !important;
@@ -467,6 +471,14 @@ td > p > label{
 	color: #d092ea !important;
 }
 
+.ui-spinner input{
+	color: #2299d5 !important;
+}
+
+/* Login Page */
+span.corners-top.bg1 span{
+	background-color:#2299d5 !important;
+}
 
 			/* Hover Stuff - Take out everything below if you don't want -- Testing
 			
