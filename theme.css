@@ -29,15 +29,15 @@ a{
 	text-decoration:none !important;
 }
 
-a:not(.username-coloured), .bg2 p a{
+a:not(.username-coloured):not(.username-legend), .bg2 p a{
 	border-bottom:1px solid rgba(50, 169, 229, 0);
 }
 
-h2, a:link:not(.username-coloured), a:visited:not(.username-coloured), .bg p a{ 
+h2, a:link:not(.username-coloured):not(.username-legend), a:visited:not(.username-coloured):not(.username-legend), .bg p a{ 
 	color:#2299d5 !important;
 }
 
-a:hover:not(.username-coloured), a:focus:not(.username-coloured), .bg2 p a:hover{
+a:hover:not(.username-coloured):not(.username-legend), a:focus:not(.username-coloured):not(.username-legend), .bg2 p a:hover{
 	color:#32a9e5 !important;
 	border-bottom:1px solid rgba(50, 169, 229, 1);
 }
@@ -127,12 +127,16 @@ table, tbody, tr, .forums td{
 }
 
 /* Post colors */
-.forums .bg1 .bg2, .post.bg2{
+.forums .bg1 .bg2, .post.bg2, #preview{
 	background-color: #3e3f3f !important;
 }
 
 .forums .bg2 .bg2, .post.bg1{
 	background-color: #383939 !important;
+}
+
+.post.bg3{
+	background-color: #3b3a3a !important;
 }
 
 blockquote{
@@ -142,7 +146,7 @@ blockquote{
 
 /* Post rounded corners */
 
-.post.bg1, .post.bg2, .rules, .panel, .postbody .content blockquote, .editorpanel, .cp-mini{
+.post.bg1, .post.bg2, .rules, .panel, .postbody .content blockquote, .editorpanel, .cp-mini, .post.bg3, #preview, .megaphone{
 	border-radius:5px;
 }
 
@@ -279,7 +283,7 @@ blockquote{
 
 /* Random Pages */
 
-fieldset label{
+label{
 	color:#fff !important;
 }
 
@@ -397,11 +401,6 @@ option{
 	background-color: #242424 !important;
 }
 
-/* Couple Garden */
-.area label{
-	color: #fff !important;
-}
-
 /* Rules */
 .rules{
 	background-color: #9b59b6 !important;
@@ -462,10 +461,6 @@ div.spoiler-visible{
 	padding: 1em !important;
 }
 
-td > p > label{
-	color:#fff !important;
-}
-
 /* Sticky */
 .sticky h4 span{
 	color: #d092ea !important;
@@ -482,6 +477,16 @@ span.corners-top.bg1 span{
 
 #primary-navigation ul{
 	margin-top:-1px !important;
+}
+
+/* Messages */
+.display-options.clearfix.bg1.pm-message-nav{
+	background-color: #242424 !important;
+}
+
+.megaphone{
+	background-image: none !important;
+	background-color: #8e44ad !important;
 }
 
 			/* Hover Stuff - Take out everything below if you don't want -- Testing
