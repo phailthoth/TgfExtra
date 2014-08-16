@@ -33,11 +33,15 @@ a:not(.username-coloured):not(.username-legend), .bg2 p a{
 	border-bottom:1px solid rgba(50, 169, 229, 0);
 }
 
-h2, a:link:not(.username-coloured):not(.username-legend), a:visited:not(.username-coloured):not(.username-legend), .bg p a{ 
-	color:#2299d5 !important;
+h2, a:link:not(.username-coloured):not(.username-legend), a:visited:not(.username-coloured):not(.username-legend){ 
+	color:#2299d5;
 }
 
-a:hover:not(.username-coloured):not(.username-legend), a:focus:not(.username-coloured):not(.username-legend), .bg2 p a:hover{
+.forumtitle a, .bg p a{
+	color: #2299d5 !important;
+}
+
+a:hover:not(.username-coloured):not(.username-legend), a:focus:not(.username-coloured):not(.username-legend), .bg2 p a:hover, .forumtitle{
 	color:#32a9e5 !important;
 	border-bottom:1px solid rgba(50, 169, 229, 1);
 }
@@ -229,17 +233,13 @@ blockquote{
 	color: #fff !important;
 }
 
-.forumtitle{
-	color: #105289 !important;
-}
-
 /* Chat color */
 
 .chattextelement, .dockbubble{
 	color: #2299d5 !important;
 }
 
-.chattextelement a.postlink{
+.chattextelement a{
 	color: #fff !important;
 }
 
