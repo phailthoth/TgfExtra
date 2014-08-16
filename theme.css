@@ -37,7 +37,7 @@ a:link:not(.username-coloured):not(.username-legend), a:visited:not(.username-co
 	color:#2299d5;
 }
 
-h2, .forumtitle a, .bg p a{
+h2, .forumtitle a, .bg p a, #tabs a{
 	color: #2299d5 !important;
 }
 
