@@ -386,6 +386,7 @@ option{
 
 #cp-menu #navigation ul li a{
 	background-color: #242424 !important;	
+	color: #fff;
 	background-image: none !important;
 }
 
@@ -395,6 +396,7 @@ option{
 
 #cp-menu #navigation ul li#active-subsection a{
 	background-color: #555 !important;
+	border-bottom: 1px solid rgba(50, 169, 229, 1);
 }
 
 .cp-mini{
