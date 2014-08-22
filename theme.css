@@ -41,7 +41,7 @@ h2, .forumtitle a, .bg p a, #tabs a{
 	color: #2299d5 !important;
 }
 
-a:hover:not(.username-coloured):not(.username-legend), a:focus:not(.username-coloured):not(.username-legend), .bg2 p a:hover, .forumtitle{
+a:hover:not(.username-coloured):not(.username-legend), a:focus:not(.username-coloured):not(.username-legend), .bg2 p a:hover:not(.username-coloured), .forumtitle{
 	color:#32a9e5 !important;
 	border-bottom:1px solid rgba(50, 169, 229, 1);
 }
