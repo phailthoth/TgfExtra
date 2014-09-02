@@ -243,7 +243,7 @@ blockquote{
 	color: #fff !important;
 }
 
-#chatlist, .chatcontents, .dockwindow{
+#chatlist, .chatcontents, .dockwindow, .chat-smilies{
 	background-color: #343434 !important;
 }
 
@@ -264,7 +264,7 @@ blockquote{
 	border: 1px solid #2299d5 !important;
 }
 
-.chatbox{
+.chatbox, .chat-smilies{
 	border-color: #2299d5 !important;
 }
 
