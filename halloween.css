@@ -477,7 +477,7 @@ span.corners-top.bg1 span{
 }
 
 /* Number Button Thingies */
-.row .pagination span a:hover, li.pagination span a:hover{
+.pagination span a:hover{
 	border-color: #f78f33 !important;
 }
 
@@ -486,6 +486,7 @@ span.corners-top.bg1 span{
 	background-color: #f78f33 !important;
 	border-color: #f78f33 !important;
 }
+
 
 			/* Hover Stuff - Take out everything below if you don't want -- Testing
 			
