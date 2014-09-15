@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Tgforums Theme: Esoteric",
-    "description": "Changes the color scheme of tgforums, to a dark theme ( grey and blue ).",
+    "name": "Tgforums Themer",
+    "description": "Changes the color scheme of tgforums.",
     "version": "0.1",
 	"icons": { "16": "icon16.png",
                "48": "icon48.png",

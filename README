@@ -1,6 +1,7 @@
 Install Guide
 1. Download/Clone
 2. Find download location
+3. Change the name of file that contains the theme to theme.css
 3. Open chrome
 4. Go to address bar and type in chrome://extensions/
 5. Check the dev mode button
@@ -15,3 +16,8 @@ Creating your own theme
 
 Contact
 1. Contact me ( http://forums.jordantrudgett.com/memberlist.php?mode=viewprofile&u=463 )
+
+
+Themes:
+Estoeric: Light blue and Dark grey
+Halloween: Orange and Dark grey

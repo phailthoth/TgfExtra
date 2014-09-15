@@ -1,0 +1,507 @@
+::selection{
+	background-color:rgba(160, 98, 186, .5);
+}
+
+body{
+	background: #242424 !important;
+	color:#fff !important;
+}
+
+/* colors of titles and links, remove :not(.username-coloured) if you want all links the same) */
+
+a{
+	transition:all ease-in-out .35s;
+	text-decoration:none !important;
+}
+
+a:not(.username-coloured):not(.username-legend), .bg2 p a{
+	border-bottom:1px solid rgba(232, 138, 56, 0);
+}
+
+a:link:not(.username-coloured):not(.username-legend), a:visited:not(.username-coloured):not(.username-legend){ 
+	color:#f78f33;
+}
+
+h2, .forumtitle a, .bg p a, #tabs a{
+	color: #f78f33 !important;
+}
+
+a:hover:not(.username-coloured):not(.username-legend), a:focus:not(.username-coloured):not(.username-legend), .bg2 p a:hover:not(.username-coloured), .forumtitle{
+	color:#e88a38 !important;
+	border-bottom:1px solid rgba(232, 138, 56, 1);
+}
+
+h3{
+	color:#f78f33 !important;
+}
+
+/* Color of border inbetween threads */
+
+table, tbody, tr, .forums td{
+	border-color:#e49866 !important;
+}
+
+#primary-navigation li{
+	border-right:1px solid #f78f33 !important;
+}
+
+/* text input color */
+
+.inputbox{
+	color:#f78f33 !important;
+}
+
+.inputbox:not(#dock input){
+	background-color:#242424 !important;
+}
+
+#dock .inputbox{
+	background-color:#343434 !important;
+}
+
+/* Top two bars */
+#account{
+	background: #343434 !important;	
+}
+
+#main-navigation{
+	background: #343434 !important;	
+}
+
+.jqueryslidemenu ul li ul li{
+	background: #343434 !important;	
+}
+
+.jqueryslidemenu ul li ul li a:link, .jqueryslidemenu ul li ul li a:visited{
+	background: #343434 !important;	
+}
+
+.jqueryslidemenu ul li ul li a:hover{
+	background:#444 !important;
+}
+
+/* Main banner */
+#illustration{
+		/* Size is: 980 x 237 */
+		/* Comment out if you want default banner */
+	background-image: url('http://puu.sh/aS8FA/f961919c11.png') !important;
+}
+
+/* Removing incase a transparent background is used */
+#illustration_back_1, #illustration_back_3{
+	display: none !important;
+}
+
+/* Super Sneaky Background Hack */
+#illustration_back_2{
+	background-color: #f78f33 !important;
+}
+
+/* Forum Title Bars */
+.forums-wrapper{
+	background: #343434 !important;
+}	
+
+/* Forum Bars */
+.forums .bg1{
+	background-color: #585757 !important;
+}
+
+.forums .bg2{
+	background-color: #4e4f4f !important;
+}
+
+.forums .bg3{
+	background-color: #686767 !important;
+}
+
+/* Post colors */
+.forums .bg1 .bg2, .post.bg2, #preview{
+	background-color: #3e3f3f !important;
+}
+
+.forums .bg2 .bg2, .post.bg1{
+	background-color: #383939 !important;
+}
+
+.post.bg3{
+	background-color: #3b3a3a !important;
+}
+
+blockquote{
+	background-color:#c85902 !important;
+	border-color: #f78f33 !important;
+}
+
+/* Post rounded corners */
+
+.post.bg1, .post.bg2, .rules, .panel, .postbody .content blockquote, .editorpanel, .cp-mini, .post.bg3, #preview, .megaphone{
+	border-radius:5px;
+}
+
+.corners-top, .corners-top span, .corners-bottom, .corners-bottom span{
+	background-image:none !important;
+}
+
+/* Color of default post text */
+
+.postbody{
+	color:#fff !important;
+}
+
+.content{
+	color:#fff !important;
+}
+
+.content:not(.postbody .content){
+	background-color:#343434 !important;
+}
+
+/* Post borders */
+
+.postprofile{
+	border-right:1px solid #f78f33 !important;
+}
+
+.signature{
+	border-top-color:#f78f33 !important;
+}
+
+/* Poster information color */
+
+.postprofile dd{
+	color:#fff !important;
+}
+
+.postprofile dd strong{
+	color:#1c8ec1 !important;
+}
+
+/* Panels that pop up from time to time */
+.panel{
+	background-color:#343434 !important;
+	color:#fff !important;
+}
+
+/* Page Buttons */
+.pagination span a, .pagination span a:link{
+	background-color:#343434 !important;
+}
+
+.pagination span a:hover{
+	background-color:#444 !important;
+}
+
+/* Text on bars */
+
+#account .leftside{
+	color: #000 !important;
+}
+
+#account .rightside li a{
+	color: #fbfbfb !important;
+}
+
+#account .leftside li{
+	color: #fbfbfb !important;
+}
+
+#primary-navigation li a{
+	color: #fbfbfb !important;
+}
+
+.forums thead tr th{
+	color: #fff !important;
+}
+
+.forums thead tr th a{
+	color: #fff !important;
+}
+
+/* Chat color */
+
+.chattextelement, .dockbubble{
+	color: #f78f33 !important;
+}
+
+.chattextelement a{
+	color: #fff !important;
+}
+
+#chatlist, .chatcontents, .dockwindow, .chat-smilies{
+	background-color: #343434 !important;
+}
+
+	/* Color of bubble */
+.dockbubble{
+	background-color: #444 !important;
+	color: #f78f33 !important;
+}
+
+	/* In case this is added, I don't have to add an update */
+.dockbubble-notif{
+	background-color: #f78f33 !important;
+	color: #444 !important;
+}
+
+	/* Border at edges */
+.dockwindow{
+	border: 1px solid #f78f33 !important;
+}
+
+.chatbox, .chat-smilies{
+	border-color: #f78f33 !important;
+}
+
+/* .chatuser p{
+	color: #fff !important;
+} */
+
+.chatuser:hover{
+	background-color: #3c3c3c !important;
+}
+
+/* Footer */
+#footer{
+	background-color: #585757 !important;
+}
+
+/* Random Pages */
+
+label{
+	color:#fff !important;
+}
+
+fieldset label:hover{
+	color:#f78f33 !important;
+}
+
+select{
+	color: #f78f33 !important;
+}
+
+option{
+	background-color: #343434 !important;
+	color: #f78f33 !important;
+	display:block !important;
+}
+
+.gardenName{
+	color:#f78f33 !important;
+}
+
+/* Color of the panel with buttons while posting */
+
+.editorpanel{
+	background-color:#242424 !important;
+	border:none !important;
+}
+
+#message-box textarea, input#subject, .panel input, .panel textarea{
+	background-color: #242424;
+}
+
+#tabs a{
+	background-color: #3d3d3d !important;
+}
+
+#tabs .activetab a{
+	background-color: #3d3d3d !important;
+	border-color: #3d3d3d !important;
+}
+
+/* Poll text color */
+
+.polls:not(.voted){
+	color:#fff !important;
+}
+
+.polls .voted{
+	color:#f78f33 !important;
+}
+
+.pollbar1{
+	background-color:#1b7aaa !important;
+	border-right-color:#186d99 !important;
+	border-bottom-color:#186d99 !important;
+}
+
+.pollbar2{
+	background-color:#2187b2 !important;
+	border-right-color:#2c79a0 !important;
+	border-bottom-color:#2c79a0 !important;
+}
+
+.pollbar3{
+	background-color:#3593b9 !important;
+	border-right-color:#3e84a6 !important;
+	border-bottom-color:#3e84a6 !important;
+}
+
+.pollbar4{
+	background-color:#479dc0 !important;
+	border-right-color:#4e8dac !important;
+	border-bottom-color:#4e8dac !important;
+}
+
+.pollbar5{
+	background-color:#479dc0 !important;
+	border-right-color:#4e8dac !important;
+	border-bottom-color:#4e8dac !important;
+}
+
+	/* Profile */
+.left-box.details dt, .details dt{
+	color: #f78f33 !important;
+}
+
+.left-box.details dd, .details dd{
+	color: #fff !important;
+}
+
+.dashed{
+	border-color:#ccc !important;
+}
+
+/* UCP */
+
+#cp-menu #navigation ul{
+	background-color: #242424 !important;
+}
+
+#cp-menu #navigation ul li a{
+	background-color: #242424 !important;	
+	color: #fff;
+	background-image: none !important;
+}
+
+#cp-menu #navigation ul li a:hover{
+	background-color: #444 !important;
+}
+
+#cp-menu #navigation ul li#active-subsection a{
+	background-color: #555 !important;
+	border-bottom: 1px solid rgba(232, 138, 56, 1);
+}
+
+.cp-mini{
+	background-color: #242424 !important;
+}
+
+/* Rules */
+.rules{
+	background-color: #9b59b6 !important;
+	color: #fff !important;
+}
+
+/* Code Box */
+.codebox{
+	border-color: #f78f33 !important;
+	background-color:#f78f33 !important;
+}
+
+.codebox dt, .codebox dd{
+	border-color: #f78f33 !important;
+}
+
+.codebox dt{
+	background-color: #242424 !important;
+	padding:10px;
+}
+
+.codebox dd{
+	background-color: #343434 !important;
+	padding:10px;
+}
+
+/* Random div I found */
+.content > div > div, .spoiler-top{
+	border: 1px solid #f78f33 !important;
+	background: #242424 !important;
+	padding: 10px !important;
+	color:#fff !important;
+}
+
+.spoiler-top{
+	border-bottom:none !important;
+}
+
+.spoiler{
+	margin:0 !important;
+}
+
+div.spoiler-box{
+	border: 1px solid #f78f33 !important;
+	background-color: #242424 !important;
+}
+
+span.spoilerbox{
+	
+}
+
+.spoiler-visible{
+	color: #9b59b6 !important;
+	background: #242424 !important;
+}
+
+div.spoiler-visible{
+	padding: 1em !important;
+}
+
+/* Sticky */
+.sticky h4 span{
+	color: #d092ea !important;
+}
+
+.ui-spinner input{
+	color: #f78f33 !important;
+}
+
+/* Login Page */
+span.corners-top.bg1 span{
+	background-color:#f78f33 !important;
+}
+
+#primary-navigation ul{
+	margin-top:-1px !important;
+}
+
+/* Messages */
+.display-options.clearfix.bg1.pm-message-nav{
+	background-color: #242424 !important;
+}
+
+.megaphone{
+	background-image: none !important;
+	background-color: #8e44ad !important;
+}
+
+/* Number Button Thingies */
+.row .pagination span a:hover, li.pagination span a:hover{
+	border-color: #f78f33 !important;
+}
+
+.pagination span strong{
+	color: #fff !important;
+	background-color: #f78f33 !important;
+	border-color: #f78f33 !important;
+}
+
+			/* Hover Stuff - Take out everything below if you don't want -- Testing
+			
+#account{
+position:fixed !important;
+display:block !important;
+margin-top:-32px !important;
+z-index:6 !important;
+min-width: 936px !important;	
+max-width: 70% !important;
+}
+
+#account .rightside{
+height:100% !important;					
+}
+
+#illustration{
+margin-top:32px !important;				
+} */ 
