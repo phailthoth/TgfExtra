@@ -388,6 +388,10 @@ option{
 	background-color: #242424 !important;
 }
 
+dl.mini dt{
+	color:#fff !important;
+}
+
 /* Rules */
 .rules{
 	background-color: #9b59b6 !important;
@@ -473,7 +477,7 @@ span.corners-top.bg1 span{
 
 .megaphone{
 	background-image: none !important;
-	background-color: #8e44ad !important;
+	background-color: #c0392b !important;
 }
 
 /* Number Button Thingies */

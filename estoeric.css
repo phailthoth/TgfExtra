@@ -389,6 +389,10 @@ option{
 	background-color: #242424 !important;
 }
 
+dl.mini dt{
+	color:#fff !important;
+}
+
 /* Rules */
 .rules{
 	background-color: #9b59b6 !important;
@@ -487,6 +491,8 @@ span.corners-top.bg1 span{
 	background-color: #2299d5 !important;
 	border-color: #2299d5 !important;
 }
+
+
 
 			/* Hover Stuff - Take out everything below if you don't want -- Testing
 			
