@@ -85,7 +85,14 @@ table, tbody, tr, .forums td{
 #illustration{
 		/* Size is: 980 x 237 */
 		/* Comment out if you want default banner */
-	background-image: url('http://puu.sh/aS8FA/f961919c11.png') !important;
+		background-image:url('http://puu.sh/aS8FA/f961919c11.png') !important;
+	/*background-image: url("chrome-extension://ljbdoeibmdalflfhlnhclpdfnlpldfii/bannerExample.png') !important;*/
+	/* If you want to locally test:
+	background-image: url('chrome-extension://extensionID/imagename.filetype') !important;
+	example:
+		background-image: url('chrome-extension://ljbdoeibmdalflfhlnhclpdfnlpldfii/bannerExample.png') !important;
+	When you load an extension, it'll generate an extension ID. Make sure copy and paste it.
+	*/
 }
 
 /* Removing incase a transparent background is used */
@@ -492,23 +499,9 @@ span.corners-top.bg1 span{
 	border-color: #2299d5 !important;
 }
 
+/* Image Zoom Background */
 
-
-			/* Hover Stuff - Take out everything below if you don't want -- Testing
-			
-#account{
-position:fixed !important;
-display:block !important;
-margin-top:-32px !important;
-z-index:6 !important;
-min-width: 936px !important;	
-max-width: 70% !important;
+div.litebox-image{
+	border: none !important;
+	background-color: rgba(36,36,36,.8) !important;
 }
-
-#account .rightside{
-height:100% !important;					
-}
-
-#illustration{
-margin-top:32px !important;				
-} */ 
